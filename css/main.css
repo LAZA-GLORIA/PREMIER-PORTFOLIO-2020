@@ -1,0 +1,802 @@
+/** https://flatuicolors.com/palette/us 
+     **/
+
+
+
+/**html {
+    scroll-behavior: smooth;
+}**/
+
+
+body {
+    width: 100%;
+    
+   
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 10px;
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.embed-responsive {
+    width: auto;
+}
+
+/** CSS ACCUEIL
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.3);
+}  **/
+
+
+.boutonAccueil {
+    width: 50px;
+    height: 50px;
+    background: url(../sources/icons/scroll.png) no-repeat;
+    background-size: contain;
+    border: none;
+    position: absolute;
+    left: calc(50% - 25px);
+    bottom: 20px;
+    font-size: 0;
+    cursor: pointer;
+    z-index: 6;
+}
+
+.titreAccueil {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 50%;
+    z-index: 4;
+    text-align: center;
+    margin-top: -130px;
+    color: white;
+
+}
+.titreAccueil .titre .nom {
+    text-shadow: 10px 12px 3px rgba(0, 0, 0, 1);
+    letter-spacing: 30px;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+/**.accroche {
+    font-family: 'Press Start 2P', cursive;
+}**/
+
+.titreAccueil .titre .accroche {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#videoCoding {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+.embed-responsive {
+    position: relative;
+    display: block;
+    /* width: 100%; */
+    /* height: 100%; */
+    padding: 0;
+    overflow: hidden;
+}
+  
+
+/**https://github.com/mattboldt/typed.js/ **/
+
+/**
+.slides-navigation {
+    z-index: 6;
+}
+.slides-navigation .prev,
+.slides-navigation .next {
+    width: 47px;
+    height: 47px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.scrollBas {
+    width: 47px;
+    height: 47px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.scrollBas {
+     background-image: url(../sources/icons/prev.png);
+}
+
+.slides-navigation a.prev {
+    background-image: url(../sources/icons/prev.png);
+}
+
+.slides-navigation a.next {
+    background-image: url(../sources/icons/next.png)
+}
+**/
+
+
+/**MENU**/
+
+
+#idMenu {
+    z-index: 100;
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    background-color: #fff;
+}
+
+#idMenu li {
+    padding: 0 10px;
+}
+
+#idMenu li a {
+    color: #333;
+}
+
+.navbar-toggler-icon {
+    background: url(../sources/icons/menu.png) no-repeat;
+    background-size: 100%;
+}
+
+.fixedNav #idMenu {
+    position: fixed;
+    top: 0px;
+}
+
+/** CSS PRESENTATION **/
+
+.section {
+    padding-top: 50px;
+    
+}
+
+#presentation {
+    background-color: #fff;
+    width: 100%;
+
+ }
+
+.imageProfil {
+    width: 20%;
+    border-radius: 25px;
+}
+
+.jumbotron {
+    background-color: #fff;
+    background-image: url(../sources/yellow-bokeh-photo-949587.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover; 
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+.jumbotron .container {
+    background: rgba(255,255,255,0.2);
+    padding: 2% 10%;
+    color: white;
+   
+}
+
+.texteProfil {
+        background: rgba(0,0,0,0.8);
+        color: white;
+        padding: 4%;
+}
+
+.texteProfil h4 {
+	position: absolute;
+    left: 50%;
+    top: -43px;
+    width: 40%;
+    height: 60px;
+    font-size: 58px;
+    margin-left: -20%;
+    color: #444;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/** 
+
+.cadre {
+    color: #fff;
+    font-size: 20px;
+	text-align: center;
+   /** border: 2px solid #444; 
+    border-top: none;
+}
+
+.cadre:before,
+.cadre:after {
+	content: '';
+	position: absolute;
+	border-bottom: 2px solid #444;
+	
+
+}
+
+
+.cadre:before {
+	right: 33px;
+    width: 13%;
+
+}
+
+.cadre:after {
+    left: 33px;
+    width: 50%;
+
+} **/
+
+
+/** CSS COMPETENCES **/
+.competencesSection {
+    background-color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    height: 100%;
+}
+
+.competencesOwl {
+    text-align: center;
+}
+
+.chart {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+}
+
+.chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.chart .percent {
+    line-height: 150px;
+    display: inline-block;
+    font-size: 35px;
+
+}
+
+.chart .percent:after { /**after means put something after the content, ici %**/
+    content: '%';
+
+}
+
+/**Compétences**/
+
+.squareItem {
+	margin-top: 30px;
+    position: relative;
+}
+
+.squareInnerContainer {
+	position: relative;
+	padding: 50px 15px 35px;
+	text-align: center;
+	border: 2px solid #444;
+	border-top: none;
+}
+
+.squareInnerContainer:before,
+.squareInnerContainer:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	width: 30%;
+	border-bottom: 2px solid #444;
+}
+
+
+.squareInnerContainer:before {
+	right: 0px;
+}
+
+.squareInnerContainer:after {
+	left: 0px
+}
+
+
+.squareContent h3 {
+	font-size: 30px;
+	font-weight: 100;
+    margin: 0;
+}
+
+
+/**PORTFOLIO**/
+
+
+
+
+.filter a {
+	color: #bdc3c7;
+	border: 1px solid #bdc3c7;
+    padding: 10px 10px;
+    display: block;
+}
+
+.filter li {
+	display: inline-block;
+	padding: 5px;
+	
+}
+
+.filter .current {
+	background-color: #e74c3c;
+	border: #e74c3c;
+	color: #fff;
+}
+
+.filter {
+	text-align: center;
+	width: 100%;
+
+}
+
+.heading {
+	text-align: center;
+	padding-bottom: 20px;
+    width: 100%;
+    height: 100%;
+} 
+
+.portfolioSection {
+    height: 100%;
+    background-color: #fff;
+    padding-top: 110px;
+}
+
+.itemsPortfolio li {
+	display: inline-block;
+    padding: 1px;
+    padding-left: 0px;
+}
+
+.itemsContainerPortfolio {
+	width :100%;
+}
+
+.itemsPortfolio li img {
+    width: 100%;
+    /** Pour que le zoom scale soit plus smooth**/
+    -webkit-transition: all 0.2s linear, 1s;
+    -moz-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+    -ms-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+}
+
+.itemsPortfolio .item {
+	position:relative;
+	display: block;
+	overflow:hidden;
+}
+
+.item .icons {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+}
+
+.item .icons i {
+    font-size: 30px;
+}
+
+.item .icons a {
+    position: relative;
+    display: inline-block;
+    background: #e74c3c;
+    width: 20%;
+    height: 100%;
+    color: #fff;
+
+    -webkit-transition: all 0.2s linear, 0.2s;
+    -moz-transition: all 0.2s linear, 0.2s;
+    -o-transition: all 0.2s linear, 0.2s;
+    -ms-transition: all 0.2s linear, 0.2s;
+    -o-transition: all 0.2s linear, 0.2s;
+}
+
+.item .imageOverlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: Opx;
+    top: 0px;
+    background-color:rgba(0, 0, 0, 0.3) ;
+    opacity: 0;
+
+    -webkit-transition: all 0.2s linear, 1s;
+    -moz-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+    -ms-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+}
+
+/**target the image overlay of the item element which is being hovered over**/
+.itemsPortfolio .item:hover .imageOverlay {
+    opacity: 1;
+}
+
+
+.itemsPortfolio .boutonIcon {
+    float: left;
+    left: -100px;
+}
+
+.itemsPortfolio .lienProjet {
+    float: right;
+    right: -100px;
+}
+
+.itemsPortfolio .item:hover .boutonIcon {
+    left: 50%;
+}
+
+.itemsPortfolio .item:hover .lienProjet {
+    right: 50%;
+}
+
+.itemsPortfolio .item:hover img {
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+}
+
+
+.linkedin {
+    display: inline-block;
+    position: relative;
+    padding: 5%;
+    background: url(../sources/icons/linkedin.png) no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    z-index: 6;
+   /** left: calc(5% - 100px);**/
+}
+.github {
+    display: inline-block;
+    position: relative;
+    padding: 5%;
+    background: url(../sources/icons/github.png) no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    z-index: 6;
+  /**  left: calc(45% - 50px); **/
+}
+
+.cv {
+    display: inline-block;
+    position: relative;
+    padding: 5%;
+    background: url(../sources/icons/cv.png) no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    z-index: 6;
+  /**  left: calc(45% - 50px); **/
+}
+
+#piedDePage {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 40px 0;
+    height: 240px;
+}
+
+
+
+
+/** Extra small devices (phones, 600px and down)**/
+@media only screen and (max-width: 600px) {
+
+
+    .itemsPortfolio {
+        padding-left: 0px;
+    }
+
+    .titreAccueil .titre .nom, .titreAccueil .titre .accroche h2 {
+        font-size: 70px;
+        letter-spacing: unset;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    /**
+    .cadre:after, .cadre::before {
+        display: none;
+    } **/
+
+    .section {
+        padding: 50px 0; /** 100px bottom et top - 0 left et rigth*/
+        
+    }
+
+    .texteProfil h4 {
+        display: inline-block;
+        position: relative;
+        font-size: 34px;
+        
+    }
+
+    /**
+    .cadre {
+        color: #fff;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    
+    .cadre:before, .cadre:after {
+        content: '';
+        position: absolute;
+        bottom: -145px;
+        border-bottom: 2px solid #444;
+    }
+    **/
+
+    
+
+    .imageProfil {
+       display: none;
+    }
+
+    #presentation {
+        height: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+
+    .texteProfil p {
+        display: inline-block;
+        position: relative;
+        font-size: 15px;
+        padding: 12px;
+    }
+    
+}
+
+/*
+@media only screen and (min-width: 631px) {
+    #presentation {
+        height: 350px;
+        background: red;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .texteProfil p {
+        display: inline-block;
+        position: relative;
+        bottom: 100%;
+        font-size: 15px;
+        padding: 12px;
+        margin: 18%;
+        left: 27%;
+
+        margin-left: 54px;
+        margin-bottom: 112.792;
+        margin-top: 0px;
+
+    }
+
+    .texteProfil h4 {
+        font-size: 36px;
+        display: inline-block;
+        position: relative;
+        top: -103%;
+        bottom: 84%;
+    }
+
+    .imageProfil {
+        width: 35%;
+        display: inline-block;
+        position: relative;
+        right: 32%;
+        margin-top: 40px;
+    }
+
+
+
+}*/
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+
+    .cadre {
+        color: #fff;
+        font-size: 10px;
+        text-align: center;
+        
+    }
+
+    .imageProfil {
+        width: 50%;
+     }
+ 
+     .section, .texteProfil{
+         padding: Opx;
+         margin: 0px;
+     }
+ 
+     .texteProfil p {
+         font-size: 20px;
+         padding: 0px;
+        
+ 
+     }
+
+     .titreAccueil .titre .nom, .titreAccueil .titre .accroche, .texteProfil h4, h2 {
+        font-size: 30px;
+     
+    }
+
+    .linkedin, .github {
+        display: inline-block;
+        position: relative;
+        left: 40%;
+    }
+    
+} 
+
+@media only screen and (min-width: 765px) {
+    .cadre {
+        
+        color: #fff;
+        font-size: 10px;
+        text-align: center;
+        border: none;
+
+    }
+
+    .texteProfil p {
+        display: inline-block;
+        position: relative;
+        bottom: 16%;
+    }
+
+    .texteProfil h4 {
+        top: -40px;
+    }
+
+    .imageProfil {
+        width: 70%;
+     }
+   
+} */
+/**
+@media screen and (min-width: 600px) and (max-width: 767px) {
+
+ 
+    #presentation {
+        height: 450px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .cadre:before, .cadre:after {
+        content: '';
+        position: absolute;
+        bottom: -171px;
+        border-bottom: 2px solid #444;
+    }
+
+    #presentation .section {
+        padding: 50px 0; /** 100px bottom et top - 0 left et rigth
+        height: 600px;
+    }
+    .texteProfil p {
+        display: inline-block;
+        position: relative;
+        bottom: 49%;
+        font-size: 17px;
+        padding: 15px;
+        width: 70%;
+        left: 21%;
+
+    }
+
+
+    .imageProfil {
+        width: 40%;
+        display: inline-block;
+        position: relative;
+        left: -32%;
+        top: 142px;
+        margin: 0px;
+    }
+
+    .texteProfil h4 {
+        position: absolute;
+        left: 79%;
+        top: -184px;
+        width: 40%;
+        height: 60px;
+        font-size: 45px;
+        margin-left: -20%;
+        color: #444;
+    }
+
+    .cadre:before {
+        right: 0px;
+        width: 8%;
+    }
+    
+}
+**/
+
+/* Large devices (laptops/desktops, 992px and up) 
+@media only screen and  ( min-width: 768px) and (min-width: 1024px) {
+
+
+    .imageProfil {
+        width: 80%;
+     }
+
+     .cadre {
+        color: #fff;
+        font-size: 10px;
+        text-align: center;
+    }
+
+   /** .cadre:before,
+    .cadre:after {
+	display: none;
+
+    }
+
+    .cadre:before {
+        right: 0px;
+        width: 13%;
+    }
+
+    .cadre:after {
+        left: 33px;
+        width: 49%;
+    }
+    
+}
+
+@media only screen and (min-width: 1300px) {
+    .cadre:before {
+        right: 33px;
+        width: 13%;
+    
+    }
+    
+    .cadre:after {
+        left: 33px;
+        width: 50%;
+    
+    }
+}
+
+**/
+
+
+

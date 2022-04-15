@@ -1,1 +1,2 @@
 # PREMIER-PORTFOLIO-2020
+Je m'ennuyais durant mon 2ème congé parental, en surfant sur le net je suis tombée sur Udemy (connaissant déjà Openclassrooms et autres). J'ai codé mon portfolio en suivant un tuto en rajoutant quelques petits trucs trouvés par ci par là. Le code m'a donné mal à la tête et aux yeux. Mais ça reste mon "premier" site web "front".

@@ -1,0 +1,162 @@
+
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Le background qui slide */
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left, #5a7a66, #cab226);
+    z-index: -1;
+}
+/* Header */
+nav {
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 10%;
+    min-height: 12vh;
+    color: white;
+    align-items: center;
+}
+
+#logo {
+    font-family: "gayathri";
+    color: rgb(95, 95, 95);
+    grid-column: 2/3;
+    font-size: 24px;
+}
+
+.icone {
+    cursor: pointer;
+    justify-self: end;
+    width: 40px;
+}
+/* L'image et le titre */
+section {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    /* pour montrer le container */
+    /* background-color: blue; */
+}
+
+.banniere {  
+    height: 100%;
+    width: 100%;
+    /* flex-basis: 300px; */
+    /* pour son after */
+    position: relative;
+    background: red;
+}
+
+/* la taille de l'image dans le conteneur section */
+/* L'image a une marge naturelle sur les côtes car elle s'adapte aux
+80vh de la section, qui est la hauteur de "banniere" */
+.banniere img {
+    width: 100%;
+    height: 100%;
+    /* On redonne le bon ratio d'affichage en fonction de la hauteur et de la
+    largeur, pour que ça rende bien */
+    object-fit: cover;
+} 
+
+
+.lettres {
+    margin: 0;
+    padding: 0;
+    letter-spacing: -25px;
+}
+
+.titre {
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    font-size: 65px;
+    transform: translate(-20%, -70%);
+    color: #f1f1f1;
+    /* pour le mettre devant */
+    z-index: 3;
+}
+
+/* relatif à banniere, pour rajouter un filtre */
+.banniere::after {
+    content: "";
+    background: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* toussa pour ça je crois */
+    opacity: 0.3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Partie Menu */
+
+.overlay {
+  
+    height: 100%;
+    width: 300px;
+    position: fixed; 
+    z-index: 10; 
+    right: -300px;
+    top: 0;
+
+    background-color: rgba(0,0,0,1); 
+    overflow-x: hidden; 
+    transition: 0.5s; 
+}
+
+.overlay-content {
+    position: relative;
+    top: 30%; 
+    width: 100%;
+    text-align: center; 
+
+}
+
+
+.overlay a {
+    padding: 8px;
+    font-family: "gayathri";
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; 
+    transition: 0.3s; 
+}
+
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+
+.overlay .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 45px;
+    font-size: 50px;
+}
+
